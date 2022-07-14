@@ -19,7 +19,7 @@ export async function getQuestionsById(id) {
         // }
         // }
         include:{
-            Answer :{
+            answers :{
                 select:{
                     answer:true
                 }
